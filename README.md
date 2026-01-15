@@ -13,15 +13,15 @@ I architected and hardened a **self-hosted Passbolt instance** on AWS EC2 to rep
 - **Secure account recovery** via SMTP (Gmail App Passwords)
 - **Zero plaintext exposure** — even during setup
 
-> ⚠️ **Critical Security Principle**: I refused to use HTTP at any stage—preventing master password leakage in transit.
+>  **Critical Security Principle**: I refused to use HTTP at any stage—preventing master password leakage in transit.
 
 ## Features I Implemented Securely
-- 🔒 **End-to-end encrypted secrets** (GPG-based)
-- 📧 **SMTP integration** for MFA, recovery emails, and security alerts
-- 🔄 **Automated password generation** with strong entropy
-- 🗝️ **Offline recovery kit** backup (stored securely)
-- 🌐 **HTTPS/SSL enforcement** via Let’s Encrypt (configured before first login)
-- 🛡️ **Least-privilege AWS Security Groups** (SSH restricted to my IP)
+-  **End-to-end encrypted secrets** (GPG-based)
+-  **SMTP integration** for MFA, recovery emails, and security alerts
+-  **Automated password generation** with strong entropy
+-  **Offline recovery kit** backup (stored securely)
+-  **HTTPS/SSL enforcement** via Let’s Encrypt (configured before first login)
+-  **Least-privilege AWS Security Groups** (SSH restricted to my IP)
 
 ## Prerequisites I Used
 - AWS Account (Free Tier)
@@ -53,13 +53,13 @@ I architected and hardened a **self-hosted Passbolt instance** on AWS EC2 to rep
 ## Screenshots: Proof of Secure Execution
 
 ![Passbolt Dashboard](images/passbolt-dashboard.png)  
-*✅ Fully deployed over HTTPS — green padlock visible*
+* Fully deployed over HTTPS — padlock visible*
 
 ![AWS Security Group Settings](images/aws-security-group.png)  
-*🛡️ SSH restricted to admin IP only — least privilege enforced*
+* SSH restricted to admin IP only — least privilege enforced*
 
 ![SSL/TLS Certificate Details](images/ssl-certificate.png)  
-*🔐 Valid Let’s Encrypt certificate — no self-signed certs*
+* Valid Let’s Encrypt certificate — no self-signed certs*
 
 ![SMTP Setup Confirmation](images/smtp-configuration.png)  
 *📧 SMTP configured with TLS — enabling MFA and recovery*
@@ -72,7 +72,7 @@ This project demonstrates hands-on skills in:
 - **Identity & Access Management**: MFA, recovery workflows, zero-trust auth  
 - **Compliance Alignment**: Meets NIST/ISO 27001 requirements for credential management  
 
-> 💡 **Relevant for roles**: Cloud Security Analyst, DevSecOps Engineer, SOC Analyst, Security Engineer
+>  **Relevant for roles**: Cloud Security Analyst, DevSecOps Engineer, SOC Analyst, Security Engineer
 
 ## Contributing
 
