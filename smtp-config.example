@@ -1,0 +1,19 @@
+# smtp-config.example — Secure SMTP Settings for Passbolt
+
+[SMTP]
+host = smtp.gmail.com
+port = 587
+username = your-gmail@gmail.com
+password = YOUR_APP_PASSWORD_HERE  # Generate via Google Account > Security > App Passwords
+tls = true
+from = your-gmail@gmail.com
+name = Passbolt Admin
+
+# Optional: For advanced logging or debugging
+debug = false
+
+# Notes:
+# Use a dedicated Gmail account for labs
+# Enable 2FA, then generate an App Password (16-char)
+# Never use your main Gmail password
+# Never commit real passwords to GitHub
