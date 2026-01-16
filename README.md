@@ -64,9 +64,9 @@ I architected and hardened a **self-hosted Passbolt instance** on AWS EC2 to rep
 ![SMTP Setup Confirmation](images/smtp-configuration.png)  
 *📧 SMTP configured with TLS — enabling MFA and recovery*
 
-## Why This Matters for Employers
+## Why This Matters To You As An Employer
 
-This project demonstrates hands-on skills in:
+The project demonstrates that I have hands-on skills in:
 - **Cloud Security**: AWS EC2, Security Groups, IAM best practices  
 - **DevSecOps**: Automated SSL, reproducible config, secure SMTP  
 - **Identity & Access Management**: MFA, recovery workflows, zero-trust auth  
