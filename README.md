@@ -53,16 +53,16 @@ I architected and hardened a **self-hosted Passbolt instance** on AWS EC2 to rep
 ## Screenshots: Proof of Secure Execution
 
 ![Passbolt Dashboard](images/passbolt-dashboard.png)  
-* Fully deployed over HTTPS — padlock visible*
+*Fully deployed over HTTPS — padlock visible*
 
 ![AWS Security Group Settings](images/aws-security-group.png)  
-* SSH restricted to admin IP only — least privilege enforced*
+*SSH restricted to admin IP only — least privilege enforced*
 
 ![SSL/TLS Certificate Details](images/ssl-certificate.png)  
-* Valid Let’s Encrypt certificate — no self-signed certs*
+*Valid Let’s Encrypt certificate — no self-signed certs*
 
 ![SMTP Setup Confirmation](images/smtp-configuration.png)  
-*📧 SMTP configured with TLS — enabling MFA and recovery*
+*SMTP configured with TLS — enabling MFA and recovery*
 
 ## Why This Matters To You As An Employer
 
